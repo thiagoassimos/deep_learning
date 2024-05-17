@@ -79,7 +79,7 @@ Vou adotar o modelo ```ResNet-50``` para extrair características de imagens de 
 ![Alt text](c10.png)
 
 
-## Métricas: ```Índice de Rand ajustado, Homogeneidade, Completude e V-measure``` 
+## Métricas utilizadas: ```Índice de Rand ajustado, Homogeneidade, Completude e V-measure``` 
 
 O ```Índice de Rand ajustado``` é importante para avaliar a qualidade da clusterização, ou seja, a organização de dados em grupos distintos - ele mede a similaridade entre a clusterização predita pelo modelo e a clusterização real.
 
