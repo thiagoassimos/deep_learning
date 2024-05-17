@@ -58,24 +58,43 @@ Vou adotar o modelo ```ResNet-50``` para extrair características de imagens de 
 
 ## Clusterização - ```K-Means```
 ```Cluster 1```
+
 ![Alt text](c1.png)
+
 ```Cluster 2```
+
 ![Alt text](c2.png)
+
 ```Cluster 3```
+
 ![Alt text](c3.png)
+
 ```Cluster 4```
+
 ![Alt text](c4.png)
+
 ```Cluster 5```
+
 ![Alt text](c5.png)
+
 ```Cluster 6```
+
 ![Alt text](c6.png)
+
 ```Cluster 7```
+
 ![Alt text](c7.png)
+
 ```Cluster 8```
+
 ![Alt text](c8.png)
+
 ```Cluster 9```
+
 ![Alt text](c9.png)
+
 ```Cluster 10```
+
 ![Alt text](c10.png)
 
 
