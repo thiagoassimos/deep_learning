@@ -56,7 +56,7 @@ No contexto da geração de texto, as LSTMs são empregadas para aprender a sequ
 
 Vou adotar o modelo ```ResNet-50``` para extrair características de imagens de animais e assim clusterizar os vetores obtidos usando o algoritmo ```K-Means```. Finalmente as imagens obtidas serão mostradas em 10 clusters, um para cada espécie de animal.
 
-## Resultados da clusterização
+## Clusterização - ```K-Means```
 ```Cluster 1```
 ![Alt text](c1.png)
 ```Cluster 2```
@@ -79,7 +79,8 @@ Vou adotar o modelo ```ResNet-50``` para extrair características de imagens de 
 ![Alt text](c10.png)
 
 
-## Métricas utilizadas: ```Índice de Rand ajustado, Homogeneidade, Completude e V-measure``` 
+## Métricas utilizadas: 
+## ```Índice de Rand ajustado, Homogeneidade, Completude e V-measure``` 
 
 O ```Índice de Rand ajustado``` é importante para avaliar a qualidade da clusterização, ou seja, a organização de dados em grupos distintos - ele mede a similaridade entre a clusterização predita pelo modelo e a clusterização real.
 
