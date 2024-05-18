@@ -1,10 +1,10 @@
 ## Deep Learning
 
-```Definição```: é uma sub-área da Aprendizagem de Máquina que emprega camadas de neurônios matemáticos para processar dados, compreender a fala humana e reconhecer objetos visualmente. A informação é passada através de cada camada, com a saída da camada anterior fornecendo entrada para a próxima camada. São uma grande revolução para Inteligência Artificial e aprenderemos sobre esse tópico
+**```Definição```**: é uma sub-área da Aprendizagem de Máquina que emprega camadas de neurônios matemáticos para processar dados, compreender a fala humana e reconhecer objetos visualmente. A informação é passada através de cada camada, com a saída da camada anterior fornecendo entrada para a próxima camada. São uma grande revolução para Inteligência Artificial e aprenderemos sobre esse tópico
 
 ## Principais aplicações
 
-```1. Reconhecimento facial com CNNs```
+**```1. Reconhecimento facial com CNNs```**
 
 Técnica amplamente utilizada para identificar indivíduos com base em suas características faciais, sendo aplicada em diversas áreas, como segurança, biometria, saúde, educação.
 
@@ -17,7 +17,7 @@ O reconhecimento facial enfrenta alguns desafios, como a necessidade de conjunto
 A pesquisa contínua busca aprimorar o reconhecimento facial, explorando arquiteturas avançadas, técnicas de aumento de dados e considerações éticas para garantir uma aplicação mais precisa, robusta e ética dessa tecnologia em constante evolução.
 
 
-```2. Reconhecimento de voz com RNNs```
+**```2. Reconhecimento de voz com RNNs```**
 
 A técnica de reconhecimento de voz viabiliza a identificação de palavras por meio da voz humana, encontrando aplicação em diversas áreas, como tradutores automáticos, assistentes virtuais, reconhecimento de falas, segurança, acessibilidade, dentre outras.
 
@@ -27,7 +27,7 @@ No contexto do reconhecimento de voz, as RNNs desempenham o papel de aprender a 
 
 O reconhecimento de voz com o uso de RNNs destaca-se por sua precisão e tem demonstrado eficácia em diversas aplicações. A habilidade dessas redes neurais em compreender a estrutura sequencial das informações sonoras as torna uma escolha robusta para lidar com a complexidade da fala humana em variados contextos e cenários.
 
-```3. Produção de textos com LSTMs```
+**```3. Produção de textos com LSTMs```**
 
 É uma técnica que viabiliza a produção de conteúdo textual inédito e original, sendo aplicada em diversas situações, como na geração de conteúdo, tradução automática, automação de respostas, marketing digital, dentre outras.
 
@@ -49,80 +49,80 @@ No contexto da geração de texto, as LSTMs são empregadas para aprender a sequ
 
 6) A falta de restrições suficientes ou informações para definir uma solução única e inequívoca. Essa questão é particularmente evidente quando os modelos de ML mostram comportamentos inesperados ou baixos desempenhos em casos de teste do mundo real, apesar de terem sido treinados e avaliados em conjuntos de dados reais.
 
-```Possíveis soluções```: utilização da transferência de aprendizado após a coleta de dados de tarefas semelhantes, aumento de dados, como tradução, espelhamento e rotação de imagens; utilização de perda ponderada de _cross entropy_ para equilibrar o desempenho em classes pequenas e grandes; uso de técnicas baseadas em _backpropagation_ e perturbação para interpretar o modelo; ajustar as saídas _softmax_ para obter _scores_ de probabilidade confiáveis; aprendizado com memória dupla para lidar com o esquecimento catastrófico; aplicar "testes de resistência" para examinar até que ponto um modelo funciona bem em dados do mundo real e para descobrir os possíveis problemas. 
+**```Possíveis soluções```**: utilização da transferência de aprendizado após a coleta de dados de tarefas semelhantes, aumento de dados, como tradução, espelhamento e rotação de imagens; utilização de perda ponderada de **```cross entropy```** para equilibrar o desempenho em classes pequenas e grandes; uso de técnicas baseadas em **```backpropagation```** e perturbação para interpretar o modelo; ajustar as saídas **```softmax```** para obter _scores_ de probabilidade confiáveis; aprendizado com memória dupla para lidar com o esquecimento catastrófico; aplicar "testes de resistência" para examinar até que ponto um modelo funciona bem em dados do mundo real e para descobrir os possíveis problemas. 
 
 
 ## Descrição do problema 
 
-Vou adotar o modelo ```ResNet-50``` para extrair características de imagens de animais e assim clusterizar os vetores obtidos usando o algoritmo ```K-Means```. Finalmente as imagens obtidas serão mostradas em 10 clusters, um para cada espécie de animal.
+Vou adotar o modelo **```ResNet-50```** para extrair características de imagens de animais e assim clusterizar os vetores obtidos usando o algoritmo **```K-Means```**. Finalmente as imagens obtidas serão mostradas em **```10 clusters```**, um para cada espécie de animal.
 
 ## Clusterização - ```K-Means```
-```Cluster 1```
+**```Cluster 1```**
 
 ![Alt text](c1.png)
 
-```Cluster 2```
+**```Cluster 2```**
 
 ![Alt text](c2.png)
 
-```Cluster 3```
+**```Cluster 3```**
 
 ![Alt text](c3.png)
 
-```Cluster 4```
+**```Cluster 4```**
 
 ![Alt text](c4.png)
 
-```Cluster 5```
+**```Cluster 5```**
 
 ![Alt text](c5.png)
 
-```Cluster 6```
+**```Cluster 6```**
 
 ![Alt text](c6.png)
 
-```Cluster 7```
+**```Cluster 7```**
 
 ![Alt text](c7.png)
 
-```Cluster 8```
+**```Cluster 8```**
 
 ![Alt text](c8.png)
 
-```Cluster 9```
+**```Cluster 9```**
 
 ![Alt text](c9.png)
 
-```Cluster 10```
+**```Cluster 10```**
 
 ![Alt text](c10.png)
 
 
 ## Métricas utilizadas: 
-## ```Índice de Rand ajustado, Homogeneidade, Completude e V-measure``` 
+### ```Índice de Rand ajustado, Homogeneidade, Completude e V-measure``` 
 
-O ```Índice de Rand ajustado``` é importante para avaliar a qualidade da clusterização, ou seja, a organização de dados em grupos distintos - ele mede a similaridade entre a clusterização predita pelo modelo e a clusterização real.
+O **```Índice de Rand ajustado```** é importante para avaliar a qualidade da clusterização, ou seja, a organização de dados em grupos distintos - ele mede a similaridade entre a clusterização predita pelo modelo e a clusterização real.
 
-A ```Homogeneidade, Completude e V-Measure``` medem diferentes aspectos da qualidade dos clusters, como a pureza dos clusters (homogeneidade), a quantidade de instâncias de cada classe que estão agrupadas juntas (completude) e a média harmônica dessas duas métricas (V-Measure).
+A **```Homogeneidade, Completude e V-Measure```** medem diferentes aspectos da qualidade dos clusters, como a pureza dos clusters (homogeneidade), a quantidade de instâncias de cada classe que estão agrupadas juntas (completude) e a média harmônica dessas duas métricas (V-Measure).
 
 
 ## Análise dos resultados
 
-  *******************************************
+  ***
   ÍNDICE DE RAND AJUSTADO: 0.6288540446004253
 
-  *********************************
+  ***
   HOMOGENEIDADE: 0.7168401790115778
 
-  ******************************
+  ***
   COMPLETUDE: 0.7309919902009214
 
-  *****************************
+  ***
   V-MEASURE: 0.7238469212860121
-  *****************************
+  ***
 
 
-Quando mais próximo de 1 estão as métricas descritas, melhor é o desempenho da clusterização de acordo com a proposta de cada métrica. Vemos que os resultados apresentados são razoáveis, tendo em vista que algumas imagens não condizem com o cluster que ela está alocada. As imagens dentro de cada classe podem ter uma grande variabilidade, tornando-as mais difíceis de serem agrupadas corretamente no devido cluster. Isso pode ocorrer se as imagens dentro de uma classe tiverem diferentes poses, fundos, iluminações, semelhança nas características, etc. Podemos observar isso nos ```clusters 4, 7, 8 e 10``` onde alguma das características citadas estão dificultando o algoritmo em agrupá-la em seu devido cluster.
+Quando mais próximo de 1 estão as métricas descritas, melhor é o desempenho da clusterização de acordo com a proposta de cada métrica. Vemos que os resultados apresentados são razoáveis, tendo em vista que algumas imagens não condizem com o cluster que ela está alocada. As imagens dentro de cada classe podem ter uma grande variabilidade, tornando-as mais difíceis de serem agrupadas corretamente no devido cluster. Isso pode ocorrer se as imagens dentro de uma classe tiverem diferentes poses, fundos, iluminações, semelhança nas características, etc. Podemos observar isso nos **```clusters 4, 7, 8 e 10```** onde alguma das características citadas estão dificultando o algoritmo em agrupá-la em seu devido cluster.
 
                       
 ![Alt text](c4.png)
