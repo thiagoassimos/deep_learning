@@ -54,7 +54,7 @@ No contexto da geração de texto, as LSTMs são empregadas para aprender a sequ
 
 ## Descrição do problema 
 
-Vou adotar o modelo **```ResNet-50```** para extrair características de imagens de animais e assim clusterizar os vetores obtidos usando o algoritmo **```K-Means```**. 
+Neste projeto trabalharemos em uma base com diversas imagens de animais de 10 espécies distintas. Vou adotar o modelo **```ResNet-50```** para extrair características destas imagens e assim clusterizar os vetores obtidos usando o algoritmo **```K-Means```**. 
 
 
 ## Modelo 
