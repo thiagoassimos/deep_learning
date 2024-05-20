@@ -54,7 +54,9 @@ No contexto da geração de texto, as LSTMs são empregadas para aprender a sequ
 
 ## Descrição do problema 
 
-Vou adotar o modelo **```ResNet-50```** para extrair características de imagens de animais e assim clusterizar os vetores obtidos usando o algoritmo **```K-Means```**. Finalmente as imagens obtidas serão mostradas em **```10 clusters```**, um para cada espécie de animal.
+Vou adotar o modelo **```ResNet-50```** para extrair características de imagens de animais e assim clusterizar os vetores obtidos usando o algoritmo **```K-Means```**. ResNet50 é uma rede neural convolucional (CNN) com 50 camadas profundas que foi projetada para tarefas de visão computacional, como reconhecimento de imagens, detecção de objetos e segmentação de imagens.
+
+Finalmente as imagens obtidas serão mostradas em **```10 clusters```**, um para cada espécie de animal.
 
 ## Clusterização - ```K-Means```
 **```Cluster 1```**
