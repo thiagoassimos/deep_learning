@@ -1,6 +1,6 @@
 ## Deep Learning
 
-**```Definição```**: é uma sub-área da Aprendizagem de Máquina que emprega camadas de neurônios matemáticos para processar dados, compreender a fala humana e reconhecer objetos visualmente. A informação é passada através de cada camada, com a saída da camada anterior fornecendo entrada para a próxima camada. São uma grande revolução para Inteligência Artificial e aprenderemos sobre esse tópico
+É uma sub-área da Aprendizagem de Máquina que emprega camadas de neurônios matemáticos para processar dados, compreender a fala humana e reconhecer objetos visualmente. A informação é passada através de cada camada, com a saída da camada anterior fornecendo entrada para a próxima camada.
 
 ## Principais aplicações
 
