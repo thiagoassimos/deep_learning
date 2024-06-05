@@ -129,7 +129,7 @@ A **```Homogeneidade, Completude e V-Measure```** medem diferentes aspectos da q
   ***
 
 
-Quanto mais próximo de 1 estão as métricas descritas, melhor é o desempenho da clusterização de acordo com a proposta de cada métrica. Vemos que os resultados apresentados são razoáveis, tendo em vista que algumas imagens não condizem com o cluster que ela está alocada. As imagens dentro de cada classe podem ter uma grande variabilidade, tornando-as mais difíceis de serem agrupadas corretamente no devido cluster. Isso pode ocorrer se as imagens dentro de uma classe tiverem diferentes poses, fundos, iluminações, semelhança nas características, etc. Podemos observar isso nos **```clusters 4, 7, 8 e 10```** onde alguma das características citadas estão dificultando o algoritmo em agrupá-la em seu devido cluster.
+Quanto mais próximo de 1 estão as métricas descritas, melhor é o desempenho da clusterização de acordo com a proposta de cada métrica. Vemos que os resultados apresentados são razoáveis, tendo em vista que algumas imagens não condizem com o cluster que ela está alocada. As imagens dentro de cada classe podem ter uma grande variabilidade, tornando-as mais difíceis de serem agrupadas corretamente no devido cluster. Isso pode ocorrer se as imagens dentro de uma classe tiverem diferentes poses, fundos, iluminações, semelhança nas características, etc. Podemos observar isso nos **```clusters 4, 7, 8 e 10```**, respectivamente, onde algumas das características citadas estão dificultando o algoritmo em agrupá-la em seu devido cluster.
 
                       
 ![Alt text](c4.png)
